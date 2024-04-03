@@ -1,0 +1,46 @@
+.container{
+    display: grid;
+    height: 500px;
+    grid-template-columns: auto auto auto;
+    gap: 10px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.box1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+}
+.box3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: purple;
+}
+.box4{
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    background-color: pink;
+}
+.box5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-color: yellow;
+}
+.box6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: greenyellow;
+}
